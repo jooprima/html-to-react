@@ -1,11 +1,13 @@
 import React from "react";
 
-import Btn from "elements/Buttons";
+import Button from "elements/Button";
 
 export default function Homepage() {
   return (
     <div>
-      <Btn>sample</Btn>
+      <Button isPrimary isSmall>
+        Sign Up
+      </Button>
     </div>
   );
 }
