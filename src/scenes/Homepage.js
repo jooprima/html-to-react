@@ -8,6 +8,7 @@ import Button from "elements/Button";
 import Header from "parts/Header";
 import Clients from "parts/Clients";
 import Feature from "parts/Features";
+import Footer from "parts/Footer";
 import HeroImage from "assets/images/hero-image.png";
 import FeatureTile01 from "assets/images/feature-tile-icon-01.svg";
 import FeatureTile02 from "assets/images/feature-tile-icon-02.svg";
@@ -189,6 +190,7 @@ export default function Homepage() {
           </div>
         </Section>
       </main>
+      <Footer></Footer>
     </div>
   );
 }
